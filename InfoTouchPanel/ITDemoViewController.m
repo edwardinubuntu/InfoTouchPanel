@@ -26,6 +26,7 @@
     for (int dataIndex = 0; dataIndex <= totalDataCount; dataIndex++) {
       [_dataArray addObject:[NSNumber numberWithInt:dataIndex]];
     }
+    self.title = @"InfoTouchPanel Demo";
   }
   return self;
 }
