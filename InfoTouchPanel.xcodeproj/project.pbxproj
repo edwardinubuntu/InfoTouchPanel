@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CBD4E67156FBF46006184FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E66156FBF46006184FA /* UIKit.framework */; };
+		1CBD4E69156FBF46006184FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E68156FBF46006184FA /* Foundation.framework */; };
+		1CBD4E6B156FBF46006184FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E6A156FBF46006184FA /* CoreGraphics.framework */; };
+		1CBD4E71156FBF47006184FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD4E6F156FBF47006184FA /* InfoPlist.strings */; };
+		1CBD4E73156FBF48006184FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E72156FBF48006184FA /* main.m */; };
+		1CBD4E77156FBF4A006184FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E76156FBF4A006184FA /* AppDelegate.m */; };
+		1CBD4E85156FBF4C006184FA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E84156FBF4C006184FA /* SenTestingKit.framework */; };
+		1CBD4E86156FBF4C006184FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E66156FBF46006184FA /* UIKit.framework */; };
+		1CBD4E87156FBF4C006184FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBD4E68156FBF46006184FA /* Foundation.framework */; };
+		1CBD4E8F156FBF4E006184FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD4E8D156FBF4E006184FA /* InfoPlist.strings */; };
+		1CBD4E92156FBF4F006184FA /* InfoTouchPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E91156FBF4F006184FA /* InfoTouchPanelTests.m */; };
+		1CBD4E9D156FC238006184FA /* ITDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E9C156FC238006184FA /* ITDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CBD4E88156FBF4C006184FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBD4E59156FBF42006184FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBD4E61156FBF46006184FA;
+			remoteInfo = InfoTouchPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CBD4E62156FBF46006184FA /* InfoTouchPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoTouchPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBD4E66156FBF46006184FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CBD4E68156FBF46006184FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CBD4E6A156FBF46006184FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CBD4E6E156FBF47006184FA /* InfoTouchPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoTouchPanel-Info.plist"; sourceTree = "<group>"; };
+		1CBD4E70156FBF47006184FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CBD4E72156FBF48006184FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CBD4E74156FBF49006184FA /* InfoTouchPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoTouchPanel-Prefix.pch"; sourceTree = "<group>"; };
+		1CBD4E75156FBF49006184FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CBD4E76156FBF4A006184FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CBD4E83156FBF4C006184FA /* InfoTouchPanelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoTouchPanelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBD4E84156FBF4C006184FA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1CBD4E8C156FBF4D006184FA /* InfoTouchPanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoTouchPanelTests-Info.plist"; sourceTree = "<group>"; };
+		1CBD4E8E156FBF4E006184FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CBD4E90156FBF4F006184FA /* InfoTouchPanelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTouchPanelTests.h; sourceTree = "<group>"; };
+		1CBD4E91156FBF4F006184FA /* InfoTouchPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTouchPanelTests.m; sourceTree = "<group>"; };
+		1CBD4E9B156FC238006184FA /* ITDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITDemoViewController.h; sourceTree = "<group>"; };
+		1CBD4E9C156FC238006184FA /* ITDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CBD4E5F156FBF46006184FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E67156FBF46006184FA /* UIKit.framework in Frameworks */,
+				1CBD4E69156FBF46006184FA /* Foundation.framework in Frameworks */,
+				1CBD4E6B156FBF46006184FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBD4E7F156FBF4C006184FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E85156FBF4C006184FA /* SenTestingKit.framework in Frameworks */,
+				1CBD4E86156FBF4C006184FA /* UIKit.framework in Frameworks */,
+				1CBD4E87156FBF4C006184FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBD4E57156FBF42006184FA = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E6C156FBF46006184FA /* InfoTouchPanel */,
+				1CBD4E8A156FBF4C006184FA /* InfoTouchPanelTests */,
+				1CBD4E65156FBF46006184FA /* Frameworks */,
+				1CBD4E63156FBF46006184FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CBD4E63156FBF46006184FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E62156FBF46006184FA /* InfoTouchPanel.app */,
+				1CBD4E83156FBF4C006184FA /* InfoTouchPanelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CBD4E65156FBF46006184FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E66156FBF46006184FA /* UIKit.framework */,
+				1CBD4E68156FBF46006184FA /* Foundation.framework */,
+				1CBD4E6A156FBF46006184FA /* CoreGraphics.framework */,
+				1CBD4E84156FBF4C006184FA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CBD4E6C156FBF46006184FA /* InfoTouchPanel */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E75156FBF49006184FA /* AppDelegate.h */,
+				1CBD4E76156FBF4A006184FA /* AppDelegate.m */,
+				1CBD4E9B156FC238006184FA /* ITDemoViewController.h */,
+				1CBD4E9C156FC238006184FA /* ITDemoViewController.m */,
+				1CBD4E6D156FBF47006184FA /* Supporting Files */,
+			);
+			path = InfoTouchPanel;
+			sourceTree = "<group>";
+		};
+		1CBD4E6D156FBF47006184FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E6E156FBF47006184FA /* InfoTouchPanel-Info.plist */,
+				1CBD4E6F156FBF47006184FA /* InfoPlist.strings */,
+				1CBD4E72156FBF48006184FA /* main.m */,
+				1CBD4E74156FBF49006184FA /* InfoTouchPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CBD4E8A156FBF4C006184FA /* InfoTouchPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E90156FBF4F006184FA /* InfoTouchPanelTests.h */,
+				1CBD4E91156FBF4F006184FA /* InfoTouchPanelTests.m */,
+				1CBD4E8B156FBF4D006184FA /* Supporting Files */,
+			);
+			path = InfoTouchPanelTests;
+			sourceTree = "<group>";
+		};
+		1CBD4E8B156FBF4D006184FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4E8C156FBF4D006184FA /* InfoTouchPanelTests-Info.plist */,
+				1CBD4E8D156FBF4E006184FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBD4E61156FBF46006184FA /* InfoTouchPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBD4E95156FBF4F006184FA /* Build configuration list for PBXNativeTarget "InfoTouchPanel" */;
+			buildPhases = (
+				1CBD4E5E156FBF46006184FA /* Sources */,
+				1CBD4E5F156FBF46006184FA /* Frameworks */,
+				1CBD4E60156FBF46006184FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfoTouchPanel;
+			productName = InfoTouchPanel;
+			productReference = 1CBD4E62156FBF46006184FA /* InfoTouchPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CBD4E82156FBF4C006184FA /* InfoTouchPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBD4E98156FBF4F006184FA /* Build configuration list for PBXNativeTarget "InfoTouchPanelTests" */;
+			buildPhases = (
+				1CBD4E7E156FBF4C006184FA /* Sources */,
+				1CBD4E7F156FBF4C006184FA /* Frameworks */,
+				1CBD4E80156FBF4C006184FA /* Resources */,
+				1CBD4E81156FBF4C006184FA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBD4E89156FBF4C006184FA /* PBXTargetDependency */,
+			);
+			name = InfoTouchPanelTests;
+			productName = InfoTouchPanelTests;
+			productReference = 1CBD4E83156FBF4C006184FA /* InfoTouchPanelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CBD4E59156FBF42006184FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Polydice Inc.";
+			};
+			buildConfigurationList = 1CBD4E5C156FBF42006184FA /* Build configuration list for PBXProject "InfoTouchPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CBD4E57156FBF42006184FA;
+			productRefGroup = 1CBD4E63156FBF46006184FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBD4E61156FBF46006184FA /* InfoTouchPanel */,
+				1CBD4E82156FBF4C006184FA /* InfoTouchPanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CBD4E60156FBF46006184FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E71156FBF47006184FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBD4E80156FBF4C006184FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E8F156FBF4E006184FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBD4E81156FBF4C006184FA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CBD4E5E156FBF46006184FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E73156FBF48006184FA /* main.m in Sources */,
+				1CBD4E77156FBF4A006184FA /* AppDelegate.m in Sources */,
+				1CBD4E9D156FC238006184FA /* ITDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBD4E7E156FBF4C006184FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBD4E92156FBF4F006184FA /* InfoTouchPanelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CBD4E89156FBF4C006184FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBD4E61156FBF46006184FA /* InfoTouchPanel */;
+			targetProxy = 1CBD4E88156FBF4C006184FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CBD4E6F156FBF47006184FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBD4E70156FBF47006184FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CBD4E8D156FBF4E006184FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBD4E8E156FBF4E006184FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CBD4E93156FBF4F006184FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CBD4E94156FBF4F006184FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CBD4E96156FBF4F006184FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTouchPanel/InfoTouchPanel-Prefix.pch";
+				INFOPLIST_FILE = "InfoTouchPanel/InfoTouchPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CBD4E97156FBF4F006184FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTouchPanel/InfoTouchPanel-Prefix.pch";
+				INFOPLIST_FILE = "InfoTouchPanel/InfoTouchPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CBD4E99156FBF4F006184FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfoTouchPanel.app/InfoTouchPanel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTouchPanel/InfoTouchPanel-Prefix.pch";
+				INFOPLIST_FILE = "InfoTouchPanelTests/InfoTouchPanelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1CBD4E9A156FBF4F006184FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfoTouchPanel.app/InfoTouchPanel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTouchPanel/InfoTouchPanel-Prefix.pch";
+				INFOPLIST_FILE = "InfoTouchPanelTests/InfoTouchPanelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CBD4E5C156FBF42006184FA /* Build configuration list for PBXProject "InfoTouchPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBD4E93156FBF4F006184FA /* Debug */,
+				1CBD4E94156FBF4F006184FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBD4E95156FBF4F006184FA /* Build configuration list for PBXNativeTarget "InfoTouchPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBD4E96156FBF4F006184FA /* Debug */,
+				1CBD4E97156FBF4F006184FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CBD4E98156FBF4F006184FA /* Build configuration list for PBXNativeTarget "InfoTouchPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBD4E99156FBF4F006184FA /* Debug */,
+				1CBD4E9A156FBF4F006184FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CBD4E59156FBF42006184FA /* Project object */;
+}

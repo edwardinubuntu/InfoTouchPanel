@@ -1,15 +1,12 @@
-# Xcode
-build/*
+.DS_Store
+build
+Build
+Products
 *.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
 *.perspectivev3
-!default.perspectivev3
+*.mode1v3
 *.xcworkspace
-!default.xcworkspace
 xcuserdata
-profile
-*.moved-aside
+.DS_Store
+
+*.pyc
