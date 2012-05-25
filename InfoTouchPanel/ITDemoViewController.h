@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITInfoTouchPanel.h"
 
 @interface ITDemoViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, strong) ITInfoTouchPanel *infoTouchPanel;
 
 @end

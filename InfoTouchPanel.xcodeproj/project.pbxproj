@@ -19,6 +19,34 @@
 		1CBD4E8F156FBF4E006184FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD4E8D156FBF4E006184FA /* InfoPlist.strings */; };
 		1CBD4E92156FBF4F006184FA /* InfoTouchPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E91156FBF4F006184FA /* InfoTouchPanelTests.m */; };
 		1CBD4E9D156FC238006184FA /* ITDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4E9C156FC238006184FA /* ITDemoViewController.m */; };
+		1CBD4F39156FCA03006184FA /* A2BlockDelegate+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4EFF156FCA03006184FA /* A2BlockDelegate+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F3A156FCA03006184FA /* BlocksKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD4F02156FCA03006184FA /* BlocksKit-Info.plist */; };
+		1CBD4F3D156FCA03006184FA /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F0B156FCA03006184FA /* NSArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F3E156FCA03006184FA /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F0D156FCA03006184FA /* NSCache+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F3F156FCA03006184FA /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F0F156FCA03006184FA /* NSDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F40156FCA03006184FA /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F11156FCA03006184FA /* NSIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F41156FCA03006184FA /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F13156FCA03006184FA /* NSInvocation+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F42156FCA03006184FA /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F15156FCA03006184FA /* NSMutableArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F43156FCA03006184FA /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F17156FCA03006184FA /* NSMutableDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F44156FCA03006184FA /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F19156FCA03006184FA /* NSMutableIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F45156FCA03006184FA /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F1B156FCA03006184FA /* NSMutableSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F46156FCA03006184FA /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F1D156FCA03006184FA /* NSObject+AssociatedObjects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F47156FCA03006184FA /* NSObject+BlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F1F156FCA03006184FA /* NSObject+BlockObservation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F48156FCA03006184FA /* NSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F21156FCA03006184FA /* NSObject+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F49156FCA03006184FA /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F23156FCA03006184FA /* NSSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4A156FCA03006184FA /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F25156FCA03006184FA /* NSTimer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4B156FCA03006184FA /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F27156FCA03006184FA /* NSURLConnection+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4C156FCA03006184FA /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F2A156FCA03006184FA /* UIActionSheet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4D156FCA03006184FA /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F2C156FCA03006184FA /* UIAlertView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4E156FCA03006184FA /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F2E156FCA03006184FA /* UIBarButtonItem+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F4F156FCA03006184FA /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F30156FCA03006184FA /* UIControl+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F50156FCA03006184FA /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F32156FCA03006184FA /* UIGestureRecognizer+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F51156FCA03006184FA /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F34156FCA03006184FA /* UIPopoverController+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F52156FCA03006184FA /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F36156FCA03006184FA /* UIView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F53156FCA03006184FA /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F38156FCA03006184FA /* UIWebView+BlocksKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F6D156FCA50006184FA /* A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F57156FCA4F006184FA /* A2BlockDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F6E156FCA50006184FA /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F59156FCA4F006184FA /* A2DynamicDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CBD4F81156FCDCA006184FA /* ITInfoTouchPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD4F80156FCDCA006184FA /* ITInfoTouchPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +78,65 @@
 		1CBD4E91156FBF4F006184FA /* InfoTouchPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTouchPanelTests.m; sourceTree = "<group>"; };
 		1CBD4E9B156FC238006184FA /* ITDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITDemoViewController.h; sourceTree = "<group>"; };
 		1CBD4E9C156FC238006184FA /* ITDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITDemoViewController.m; sourceTree = "<group>"; };
+		1CBD4EFE156FCA03006184FA /* A2BlockDelegate+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "A2BlockDelegate+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4EFF156FCA03006184FA /* A2BlockDelegate+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "A2BlockDelegate+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F00156FCA03006184FA /* BKGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGlobals.h; sourceTree = "<group>"; };
+		1CBD4F01156FCA03006184FA /* BKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMacros.h; sourceTree = "<group>"; };
+		1CBD4F02156FCA03006184FA /* BlocksKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BlocksKit-Info.plist"; sourceTree = "<group>"; };
+		1CBD4F03156FCA03006184FA /* BlocksKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-Prefix.pch"; sourceTree = "<group>"; };
+		1CBD4F04156FCA03006184FA /* BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksKit.h; sourceTree = "<group>"; };
+		1CBD4F0A156FCA03006184FA /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F0B156FCA03006184FA /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F0C156FCA03006184FA /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F0D156FCA03006184FA /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F0E156FCA03006184FA /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F0F156FCA03006184FA /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F10156FCA03006184FA /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F11156FCA03006184FA /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F12156FCA03006184FA /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F13156FCA03006184FA /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F14156FCA03006184FA /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F15156FCA03006184FA /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F16156FCA03006184FA /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F17156FCA03006184FA /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F18156FCA03006184FA /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F19156FCA03006184FA /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F1A156FCA03006184FA /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F1B156FCA03006184FA /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F1C156FCA03006184FA /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		1CBD4F1D156FCA03006184FA /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
+		1CBD4F1E156FCA03006184FA /* NSObject+BlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockObservation.h"; sourceTree = "<group>"; };
+		1CBD4F1F156FCA03006184FA /* NSObject+BlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlockObservation.m"; sourceTree = "<group>"; };
+		1CBD4F20156FCA03006184FA /* NSObject+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F21156FCA03006184FA /* NSObject+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F22156FCA03006184FA /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F23156FCA03006184FA /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F24156FCA03006184FA /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F25156FCA03006184FA /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F26156FCA03006184FA /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F27156FCA03006184FA /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F29156FCA03006184FA /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F2A156FCA03006184FA /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F2B156FCA03006184FA /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F2C156FCA03006184FA /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F2D156FCA03006184FA /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F2E156FCA03006184FA /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F2F156FCA03006184FA /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F30156FCA03006184FA /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F31156FCA03006184FA /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F32156FCA03006184FA /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F33156FCA03006184FA /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F34156FCA03006184FA /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F35156FCA03006184FA /* UIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F36156FCA03006184FA /* UIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F37156FCA03006184FA /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		1CBD4F38156FCA03006184FA /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		1CBD4F56156FCA4F006184FA /* A2BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2BlockDelegate.h; sourceTree = "<group>"; };
+		1CBD4F57156FCA4F006184FA /* A2BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2BlockDelegate.m; sourceTree = "<group>"; };
+		1CBD4F58156FCA4F006184FA /* A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2DynamicDelegate.h; sourceTree = "<group>"; };
+		1CBD4F59156FCA4F006184FA /* A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2DynamicDelegate.m; sourceTree = "<group>"; };
+		1CBD4F7F156FCDCA006184FA /* ITInfoTouchPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITInfoTouchPanel.h; sourceTree = "<group>"; };
+		1CBD4F80156FCDCA006184FA /* ITInfoTouchPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITInfoTouchPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +168,7 @@
 			children = (
 				1CBD4E6C156FBF46006184FA /* InfoTouchPanel */,
 				1CBD4E8A156FBF4C006184FA /* InfoTouchPanelTests */,
+				1CBD4EFB156FC9ED006184FA /* Dependencies */,
 				1CBD4E65156FBF46006184FA /* Frameworks */,
 				1CBD4E63156FBF46006184FA /* Products */,
 			);
@@ -109,6 +197,7 @@
 		1CBD4E6C156FBF46006184FA /* InfoTouchPanel */ = {
 			isa = PBXGroup;
 			children = (
+				1CBD4F7E156FCD83006184FA /* InfoTouchPanel */,
 				1CBD4E75156FBF49006184FA /* AppDelegate.h */,
 				1CBD4E76156FBF4A006184FA /* AppDelegate.m */,
 				1CBD4E9B156FC238006184FA /* ITDemoViewController.h */,
@@ -146,6 +235,105 @@
 				1CBD4E8D156FBF4E006184FA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CBD4EFB156FC9ED006184FA /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4F54156FCA4F006184FA /* A2DynamicDelegate */,
+				1CBD4EFD156FCA03006184FA /* BlocksKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1CBD4EFD156FCA03006184FA /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4EFE156FCA03006184FA /* A2BlockDelegate+BlocksKit.h */,
+				1CBD4EFF156FCA03006184FA /* A2BlockDelegate+BlocksKit.m */,
+				1CBD4F00156FCA03006184FA /* BKGlobals.h */,
+				1CBD4F01156FCA03006184FA /* BKMacros.h */,
+				1CBD4F02156FCA03006184FA /* BlocksKit-Info.plist */,
+				1CBD4F03156FCA03006184FA /* BlocksKit-Prefix.pch */,
+				1CBD4F04156FCA03006184FA /* BlocksKit.h */,
+				1CBD4F0A156FCA03006184FA /* NSArray+BlocksKit.h */,
+				1CBD4F0B156FCA03006184FA /* NSArray+BlocksKit.m */,
+				1CBD4F0C156FCA03006184FA /* NSCache+BlocksKit.h */,
+				1CBD4F0D156FCA03006184FA /* NSCache+BlocksKit.m */,
+				1CBD4F0E156FCA03006184FA /* NSDictionary+BlocksKit.h */,
+				1CBD4F0F156FCA03006184FA /* NSDictionary+BlocksKit.m */,
+				1CBD4F10156FCA03006184FA /* NSIndexSet+BlocksKit.h */,
+				1CBD4F11156FCA03006184FA /* NSIndexSet+BlocksKit.m */,
+				1CBD4F12156FCA03006184FA /* NSInvocation+BlocksKit.h */,
+				1CBD4F13156FCA03006184FA /* NSInvocation+BlocksKit.m */,
+				1CBD4F14156FCA03006184FA /* NSMutableArray+BlocksKit.h */,
+				1CBD4F15156FCA03006184FA /* NSMutableArray+BlocksKit.m */,
+				1CBD4F16156FCA03006184FA /* NSMutableDictionary+BlocksKit.h */,
+				1CBD4F17156FCA03006184FA /* NSMutableDictionary+BlocksKit.m */,
+				1CBD4F18156FCA03006184FA /* NSMutableIndexSet+BlocksKit.h */,
+				1CBD4F19156FCA03006184FA /* NSMutableIndexSet+BlocksKit.m */,
+				1CBD4F1A156FCA03006184FA /* NSMutableSet+BlocksKit.h */,
+				1CBD4F1B156FCA03006184FA /* NSMutableSet+BlocksKit.m */,
+				1CBD4F1C156FCA03006184FA /* NSObject+AssociatedObjects.h */,
+				1CBD4F1D156FCA03006184FA /* NSObject+AssociatedObjects.m */,
+				1CBD4F1E156FCA03006184FA /* NSObject+BlockObservation.h */,
+				1CBD4F1F156FCA03006184FA /* NSObject+BlockObservation.m */,
+				1CBD4F20156FCA03006184FA /* NSObject+BlocksKit.h */,
+				1CBD4F21156FCA03006184FA /* NSObject+BlocksKit.m */,
+				1CBD4F22156FCA03006184FA /* NSSet+BlocksKit.h */,
+				1CBD4F23156FCA03006184FA /* NSSet+BlocksKit.m */,
+				1CBD4F24156FCA03006184FA /* NSTimer+BlocksKit.h */,
+				1CBD4F25156FCA03006184FA /* NSTimer+BlocksKit.m */,
+				1CBD4F26156FCA03006184FA /* NSURLConnection+BlocksKit.h */,
+				1CBD4F27156FCA03006184FA /* NSURLConnection+BlocksKit.m */,
+				1CBD4F28156FCA03006184FA /* UIKit */,
+			);
+			name = BlocksKit;
+			path = Dependencies/BlocksKit/BlocksKit;
+			sourceTree = "<group>";
+		};
+		1CBD4F28156FCA03006184FA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4F29156FCA03006184FA /* UIActionSheet+BlocksKit.h */,
+				1CBD4F2A156FCA03006184FA /* UIActionSheet+BlocksKit.m */,
+				1CBD4F2B156FCA03006184FA /* UIAlertView+BlocksKit.h */,
+				1CBD4F2C156FCA03006184FA /* UIAlertView+BlocksKit.m */,
+				1CBD4F2D156FCA03006184FA /* UIBarButtonItem+BlocksKit.h */,
+				1CBD4F2E156FCA03006184FA /* UIBarButtonItem+BlocksKit.m */,
+				1CBD4F2F156FCA03006184FA /* UIControl+BlocksKit.h */,
+				1CBD4F30156FCA03006184FA /* UIControl+BlocksKit.m */,
+				1CBD4F31156FCA03006184FA /* UIGestureRecognizer+BlocksKit.h */,
+				1CBD4F32156FCA03006184FA /* UIGestureRecognizer+BlocksKit.m */,
+				1CBD4F33156FCA03006184FA /* UIPopoverController+BlocksKit.h */,
+				1CBD4F34156FCA03006184FA /* UIPopoverController+BlocksKit.m */,
+				1CBD4F35156FCA03006184FA /* UIView+BlocksKit.h */,
+				1CBD4F36156FCA03006184FA /* UIView+BlocksKit.m */,
+				1CBD4F37156FCA03006184FA /* UIWebView+BlocksKit.h */,
+				1CBD4F38156FCA03006184FA /* UIWebView+BlocksKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1CBD4F54156FCA4F006184FA /* A2DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4F56156FCA4F006184FA /* A2BlockDelegate.h */,
+				1CBD4F57156FCA4F006184FA /* A2BlockDelegate.m */,
+				1CBD4F58156FCA4F006184FA /* A2DynamicDelegate.h */,
+				1CBD4F59156FCA4F006184FA /* A2DynamicDelegate.m */,
+			);
+			name = A2DynamicDelegate;
+			path = Dependencies/A2DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		1CBD4F7E156FCD83006184FA /* InfoTouchPanel */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD4F7F156FCDCA006184FA /* ITInfoTouchPanel.h */,
+				1CBD4F80156FCDCA006184FA /* ITInfoTouchPanel.m */,
+			);
+			name = InfoTouchPanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBD4E71156FBF47006184FA /* InfoPlist.strings in Resources */,
+				1CBD4F3A156FCA03006184FA /* BlocksKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +446,33 @@
 				1CBD4E73156FBF48006184FA /* main.m in Sources */,
 				1CBD4E77156FBF4A006184FA /* AppDelegate.m in Sources */,
 				1CBD4E9D156FC238006184FA /* ITDemoViewController.m in Sources */,
+				1CBD4F39156FCA03006184FA /* A2BlockDelegate+BlocksKit.m in Sources */,
+				1CBD4F3D156FCA03006184FA /* NSArray+BlocksKit.m in Sources */,
+				1CBD4F3E156FCA03006184FA /* NSCache+BlocksKit.m in Sources */,
+				1CBD4F3F156FCA03006184FA /* NSDictionary+BlocksKit.m in Sources */,
+				1CBD4F40156FCA03006184FA /* NSIndexSet+BlocksKit.m in Sources */,
+				1CBD4F41156FCA03006184FA /* NSInvocation+BlocksKit.m in Sources */,
+				1CBD4F42156FCA03006184FA /* NSMutableArray+BlocksKit.m in Sources */,
+				1CBD4F43156FCA03006184FA /* NSMutableDictionary+BlocksKit.m in Sources */,
+				1CBD4F44156FCA03006184FA /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				1CBD4F45156FCA03006184FA /* NSMutableSet+BlocksKit.m in Sources */,
+				1CBD4F46156FCA03006184FA /* NSObject+AssociatedObjects.m in Sources */,
+				1CBD4F47156FCA03006184FA /* NSObject+BlockObservation.m in Sources */,
+				1CBD4F48156FCA03006184FA /* NSObject+BlocksKit.m in Sources */,
+				1CBD4F49156FCA03006184FA /* NSSet+BlocksKit.m in Sources */,
+				1CBD4F4A156FCA03006184FA /* NSTimer+BlocksKit.m in Sources */,
+				1CBD4F4B156FCA03006184FA /* NSURLConnection+BlocksKit.m in Sources */,
+				1CBD4F4C156FCA03006184FA /* UIActionSheet+BlocksKit.m in Sources */,
+				1CBD4F4D156FCA03006184FA /* UIAlertView+BlocksKit.m in Sources */,
+				1CBD4F4E156FCA03006184FA /* UIBarButtonItem+BlocksKit.m in Sources */,
+				1CBD4F4F156FCA03006184FA /* UIControl+BlocksKit.m in Sources */,
+				1CBD4F50156FCA03006184FA /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				1CBD4F51156FCA03006184FA /* UIPopoverController+BlocksKit.m in Sources */,
+				1CBD4F52156FCA03006184FA /* UIView+BlocksKit.m in Sources */,
+				1CBD4F53156FCA03006184FA /* UIWebView+BlocksKit.m in Sources */,
+				1CBD4F6D156FCA50006184FA /* A2BlockDelegate.m in Sources */,
+				1CBD4F6E156FCA50006184FA /* A2DynamicDelegate.m in Sources */,
+				1CBD4F81156FCDCA006184FA /* ITInfoTouchPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +634,7 @@
 				1CBD4E97156FBF4F006184FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CBD4E98156FBF4F006184FA /* Build configuration list for PBXNativeTarget "InfoTouchPanelTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +643,7 @@
 				1CBD4E9A156FBF4F006184FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

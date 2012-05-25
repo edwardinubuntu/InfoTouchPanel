@@ -1,0 +1,6 @@
+[submodule "Dependencies/BlocksKit"]
+	path = Dependencies/BlocksKit
+	url = https://github.com/zwaldowski/BlocksKit.git
+[submodule "Dependencies/A2DynamicDelegate"]
+	path = Dependencies/A2DynamicDelegate
+	url = https://github.com/pandamonia/A2DynamicDelegate.git
